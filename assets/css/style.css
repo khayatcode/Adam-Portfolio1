@@ -93,6 +93,11 @@ Table of contents
 	padding: 0;
 }
 
+/* .logoDesign {
+	width: 600px;
+	height: auto;
+} */
+
 .linkedin :hover, .github :hover {
 	color: rgb(18, 215, 255);
 	transition-duration: 300ms;
@@ -2635,15 +2640,15 @@ header.header-fixed {
 
 header.header-fixed .logo a {
 	display: block;
-	padding: 20px;
+	padding: 0px;
 	text-align: center;
 	background: var(--color-primary);
 }
 
 header.header-fixed .logo img {
-	height: auto;
-	width: auto;
-	max-height: 60px;
+	height: 100%;
+	width: 100%;
+	/* max-height: 60px; */
 }
 
 header.header-fixed .video {
@@ -6517,7 +6522,7 @@ footer {
 	}
 
 	nav.navbar.validnavs .navbar-collapse.collapse img {
-		height: 40px;
+		/* height: 40px; */
 		margin-top: 8px;
 	}
 }
