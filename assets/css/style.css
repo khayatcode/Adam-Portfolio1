@@ -367,6 +367,17 @@ p {
 	max-width: 1400px;
 }
 
+@media (max-width: 991px){
+	.videoClass {
+		margin-top: 400px;
+	}
+}
+
+@media (max-width: 767px){
+	.videoClass {
+		margin-top: 225px;
+	}
+}
 @media (min-width: 576px) {
 	.container-full {
 		max-width: 540px;
