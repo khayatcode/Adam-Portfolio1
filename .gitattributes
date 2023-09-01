@@ -1,1 +1,2 @@
 assets/img/About_me_vid.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/img/About_me_copy.mp4 filter=lfs diff=lfs merge=lfs -text
