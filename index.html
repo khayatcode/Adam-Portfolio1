@@ -106,21 +106,26 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/Logo-Design/4_Transparent_Image.png"
-                            srcset="assets/img/Logo-Design/4_Transparent_Image-300w.png 300w, assets/img/Logo-Design/4_Transparent_Image-600w.png 600w"
-                            sizes="(min-width: 780px) 300px, (min-width: 580px) 270px, 50vw" alt="Logo" />
-
-
+                        <picture>
+                            <!-- WebP image -->
+                            <source type="image/webp" srcset="assets/img/Logo-Design/4_Transparent_Image.webp">
+                            <!-- JPEG image (fallback for browsers that don't support WebP) -->
+                            <img src="assets/img/Logo-Design/4_Transparent_Image.png" class="logoDesign" alt="Logo">
+                        </picture>
                     </a>
+                    
                 </div>
                 <!-- End Header Navigation -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
 
-                    <img src="assets/img/Logo-Design/4_Transparent_Image.png"
-                        srcset="assets/img/Logo-Design/4_Transparent_Image-300w.png 300w, assets/img/Logo-Design/4_Transparent_Image-600w.png 600w"
-                        sizes="200px" alt="Logo" />
+                    <picture>
+                        <!-- WebP image -->
+                        <source type="image/webp" srcset="assets/img/Logo-Design/4_Transparent_Image.webp">
+                        <!-- JPEG image (fallback for browsers that don't support WebP) -->
+                        <img src="assets/img/Logo-Design/4_Transparent_Image.png" class="logoDesign" alt="Logo">
+                    </picture>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-times"></i>
                     </button>
@@ -163,9 +168,12 @@
         <div class="f-flex">
             <div class="logo">
                 <a href="#home">
-                    <img src="assets/img/Logo-Design/1_Transparent_Image.png"
-                        srcset="assets/img/Logo-Design/1_Transparent_Image-220w.png 220w"
-                        sizes="(min-width: 1040px) 110px, 50vw" alt="Logo" />
+                    <picture>
+                        <!-- WebP image -->
+                        <source type="image/webp" srcset="assets/img/Logo-Design/1_Transparent_Image.webp">
+                        <!-- JPEG/PNG image (fallback for browsers that don't support WebP) -->
+                        <img src="assets/img/Logo-Design/1_Transparent_Image.png" alt="Logo">
+                    </picture>                    
                 </a>
             </div>
             <div class="menu">
@@ -245,15 +253,17 @@
                     </div>
 
                     <div class="col-lg-6 thumb" data-wow-delay="900ms">
-                        <img class=" wow fadeInDown" src="assets/img/illustration/2.png" alt="Thumb">
+                        <picture class="wow fadeInDown">
+                            <source type="image/webp" srcset="assets/img/illustration/2.webp">
+                            <img src="assets/img/illustration/2.png" alt="Thumb">
+                        </picture>                        
                         <div class="shape-center">
-                            <img src="assets/img/shape/7.png"
-                                srcset="assets/img/shape/7-603w.png 603w, assets/img/shape/7-790w.png 790w, assets/img/shape/7-1080w.png 1080w, assets/img/shape/7-1206w.png 1206w, assets/img/shape/7-1452w.png 1452w"
-                                sizes="(min-width: 580px) 100vw, 603px" alt="Thumb" />
-
-
-
-
+                            <picture>
+                                <!-- WebP image -->
+                                <source type="image/webp" srcset="assets/img/shape/7.webp">
+                                <!-- JPEG/PNG image (fallback for browsers that don't support WebP) -->
+                                <img src="assets/img/shape/7.png" alt="Thumb">
+                            </picture>
                         </div>
                     </div>
 
@@ -282,10 +292,7 @@
     <div class="container videoClass" style="margin-bottom: 50px;">
         <h2 class="sub-title" style="margin-bottom: 30px; ">About Me</h2>
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/QhhLxmo7-no?si=Gnn2XVVgkU169y8u" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/QhhLxmo7-no?si=Gnn2XVVgkU169y8u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </div>
 
@@ -294,7 +301,10 @@
             <div class="row align-center">
                 <div class="about-style-six col-lg-5">
                     <div class="thumb">
-                        <img class="wow fadeInUp" src="assets/img/illustration/pic2-removebg-preview.png" alt="Thumb">
+                        <picture class="wow fadeInUp">
+                            <source type="image/webp" srcset="assets/img/illustration/pic2-removebg-preview.webp">
+                            <img src="assets/img/illustration/pic2-removebg-preview.png" alt="Thumb">
+                        </picture>                        
                     </div>
                 </div>
                 <div class="about-style-six col-lg-6 offset-lg-1">
@@ -358,7 +368,11 @@
                 <div class="service-style-one col-lg-4 col-md-6">
                     <!-- <a href="#" data-bs-toggle="modal" data-bs-target="#serviceSingleModal"> -->
                     <div class="service-style-one-item">
-                        <img src="assets/img/icon/2.png" alt="Icon">
+                        <picture>
+                            <source type="image/webp" srcset="assets/img/icon/2.webp">
+                            <img src="assets/img/icon/2.png" alt="Icon">
+                        </picture>
+                        
                         <h4>Software Development</h4>
                         <p>
                             Experienced full-stack developer crafting efficient, user-centric software from design to
@@ -371,7 +385,10 @@
                 <!-- Single Item -->
                 <div class="service-style-one col-lg-4 col-md-6">
                     <div class="service-style-one-item">
-                        <img src="assets/img/icon/3.png" alt="Icon">
+                        <picture>
+                            <source type="image/webp" srcset="assets/img/icon/3.webp">
+                            <img src="assets/img/icon/3.png" alt="Icon">
+                        </picture>                        
                         <h4>Web Development</h4>
                         <p>
                             Experienced web developer crafting websites with smooth interfaces, strong back-end.
@@ -383,7 +400,10 @@
                 <!-- Single Item -->
                 <div class="service-style-one col-lg-4 col-md-6">
                     <div class="service-style-one-item">
-                        <img src="assets/img/icon/4.png" alt="Icon">
+                        <picture>
+                            <source type="image/webp" srcset="assets/img/icon/4.webp">
+                            <img src="assets/img/icon/4.png" alt="Icon">
+                        </picture>                        
                         <h4>Performance Optimization</h4>
                         <p>
                             Committed to software optimization, I profile code, use best practices for responsive apps,
@@ -401,7 +421,10 @@
     ============================================= -->
     <div id="portfolio" class="portfolio-style-six-area default-padding-top">
         <div class="shape-animated-right">
-            <img src="assets/img/shape/1.webp" alt="Shape">
+            <picture>
+                <source type="image/webp" srcset="assets/img/shape/1.webp">
+                <img src="assets/img/shape/1.webp" alt="Shape">
+            </picture>            
         </div>
 
         <div class="container">
@@ -412,7 +435,10 @@
                             <h5 class="sub-title">Recent Work</h5>
                             <h2 class="title">Look at some of my recent projects!</h2>
                             <div class="heading-shape">
-                                <img src="assets/img/shape/10.png" alt="Shape">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/img/shape/10.webp">
+                                    <img src="assets/img/shape/10.png" alt="Shape">
+                                </picture>                                
                             </div>
                         </div>
                     </div>
@@ -427,12 +453,10 @@
                             <!-- Single Item -->
                             <div class="pf-item">
                                 <div class="overlay-content">
-                                    <img src="assets/img/fabriko2.png"
-                                        srcset="assets/img/fabriko2-666w.png 666w, assets/img/fabriko2-1146w.png 1146w"
-                                        sizes="(min-width: 1460px) 573px, (min-width: 1200px) calc(22.92vw + 243px), (min-width: 1000px) 453px, (min-width: 780px) 333px, (min-width: 580px) 516px, calc(100vw - 24px)"
-                                        alt="thumb" />
-
-
+                                    <picture>
+                                        <source type="image/webp" srcset="assets/img/fabriko2.webp">
+                                        <img src="assets/img/fabriko2.png" alt="thumb">
+                                    </picture>                                    
                                     <div class="content">
                                         <div class="title">
                                             <span style="font-size: smaller;">E-Commerce</span>
@@ -457,10 +481,9 @@
                                             class="d-flex justify-content-center align-items-center "><i
                                                 class="devicon-github-plain" style="font-size: 2.2em;"></i>
                                             </a> -->
-                                        <a href="https://youtu.be/f5EmeuVm8hM" target="_blank"
-                                            class="d-flex justify-content-center align-items-center ">
-                                            <i class="fab fa-youtube" style="font-size: 2em;"></i>
-                                        </a>
+                                            <a href="https://youtu.be/f5EmeuVm8hM" target="_blank" class="d-flex justify-content-center align-items-center ">
+                                                <i class="fab fa-youtube" style="font-size: 2em;"></i>
+                                              </a>
                                     </div>
                                 </div>
                             </div>
@@ -469,11 +492,10 @@
                             <!-- Single Item -->
                             <div class="pf-item">
                                 <div class="overlay-content">
-                                    <img src="assets/img/universe1.png"
-                                        srcset="assets/img/universe1-666w.png 666w, assets/img/universe1-1146w.png 1146w"
-                                        sizes="(min-width: 1460px) 573px, (min-width: 1200px) calc(22.92vw + 243px), (min-width: 1000px) 453px, (min-width: 780px) 333px, (min-width: 580px) 516px, calc(100vw - 24px)"
-                                        alt="thumb" />
-
+                                    <picture>
+                                        <source type="image/webp" srcset="assets/img/universe1.webp">
+                                        <img src="assets/img/universe1.png" alt="thumb">
+                                    </picture>                                    
                                     <div class="content">
                                         <div class="title">
                                             <span style="font-size: smaller;">Social Media</span>
@@ -498,10 +520,9 @@
                                         <!-- <a href="https://github.com/khayatcode/UniVerse.git" target="_blank"
                                             class="d-flex justify-content-center align-items-center "><i
                                                 class="devicon-github-plain" style="font-size: 2.2em;"></i></a> -->
-                                        <a href="https://youtu.be/cPx1bVok9Os" target="_blank"
-                                            class="d-flex justify-content-center align-items-center ">
-                                            <i class="fab fa-youtube" style="font-size: 2em;"></i>
-                                        </a>
+                                                <a href="https://youtu.be/cPx1bVok9Os" target="_blank" class="d-flex justify-content-center align-items-center ">
+                                                    <i class="fab fa-youtube" style="font-size: 2em;"></i>
+                                                  </a>
                                     </div>
                                 </div>
                             </div>
@@ -671,7 +692,10 @@ The simulation includes a range of scenarios that users can explore, each of whi
 
                         <div class="project-details-items">
                             <div class="project-thumb">
-                                <img src="assets/img/fabriko4.png" alt="Thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/img/fabriko4.webp">
+                                    <img src="assets/img/fabriko4.png" alt="Thumb">
+                                </picture>                                
                             </div>
                             <div class="top-info">
                                 <div class="row">
@@ -692,9 +716,8 @@ The simulation includes a range of scenarios that users can explore, each of whi
                                                         Project <span>Group</span>
                                                     </li>
                                                     <li>
-                                                        GitHub<span><a href="https://github.com/khayatcode/FabriKo.git"
-                                                                target="_blank"><i class="devicon-github-plain"
-                                                                    style="font-size: 2.2em;"></i></a></span>
+                                                        GitHub<span><a href="https://github.com/khayatcode/FabriKo.git" target="_blank"><i
+                                                            class="devicon-github-plain" style="font-size: 2.2em;"></i></a></span>
                                                     </li>
                                                 </ul>
                                                 <ul class="social">
@@ -761,10 +784,17 @@ The simulation includes a range of scenarios that users can explore, each of whi
                             <div class="main-content mt-40">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
-                                        <img src="assets/img/fabriko3.png" alt="Thumb">
+                                        <picture>
+                                            <source type="image/webp" srcset="assets/img/fabriko3.webp">
+                                            <img src="assets/img/fabriko3.png" alt="Thumb">
+                                        </picture>                                        
                                     </div>
                                     <div class="col-lg-6 col-md-6">
-                                        <img src="assets/img/fabriko5.png" alt="Thumb">
+                                        <picture>
+                                            <source type="image/webp" srcset="assets/img/fabriko5.webp">
+                                            <img src="assets/img/fabriko5.png" alt="Thumb">
+                                        </picture>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -786,7 +816,11 @@ The simulation includes a range of scenarios that users can explore, each of whi
 
                         <div class="project-details-items">
                             <div class="project-thumb">
-                                <img src="assets/img/universe6.png" alt="Thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/img/universe6.webp">
+                                    <img src="assets/img/universe6.png" alt="Thumb">
+                                </picture>
+                                
                             </div>
                             <div class="top-info">
                                 <div class="row">
@@ -808,9 +842,8 @@ The simulation includes a range of scenarios that users can explore, each of whi
                                                         Project<span>Solo</span>
                                                     </li>
                                                     <li>
-                                                        GitHub<span><a href="https://github.com/khayatcode/UniVerse.git"
-                                                                target="_blank"><i class="devicon-github-plain"
-                                                                    style="font-size: 2.2em;"></i></a></span>
+                                                        GitHub<span><a href="https://github.com/khayatcode/UniVerse.git" target="_blank"><i
+                                                            class="devicon-github-plain" style="font-size: 2.2em;"></i></a></span>
                                                     </li>
                                                 </ul>
                                                 <ul class="social">
@@ -876,11 +909,17 @@ The simulation includes a range of scenarios that users can explore, each of whi
                             <div class="main-content mt-40">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
-                                        <img src="assets/img/universe4test.png" alt="Thumb">
+                                        <picture>
+                                            <source type="image/webp" srcset="assets/img/universe4test.webp">
+                                            <img src="assets/img/universe4test.png" alt="Thumb">
+                                        </picture>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
-                                        <img src="assets/img/universe5.png" alt="Thumb">
-                                    </div>
+                                        <picture>
+                                            <source type="image/webp" srcset="assets/img/universe5.webp">
+                                            <img src="assets/img/universe5.png" alt="Thumb">
+                                        </picture>
+                                    </div>                                    
                                 </div>
                             </div>
                         </div>
@@ -975,7 +1014,10 @@ The simulation includes a range of scenarios that users can explore, each of whi
                                             <li>
                                                 <div class="d-flex flex-wrap align-center justify-content-evenly mb-4">
                                                     <div>
-                                                        <img src="assets/img/icon/js.png" width="100px">
+                                                        <picture>
+                                                            <source type="image/webp" srcset="assets/img/icon/js.webp">
+                                                            <img src="assets/img/icon/js.png" width="100px" alt="Javascript">
+                                                        </picture>
                                                         <h4 class="text-center pt-1">Javascript</h4>
                                                     </div>
                                                     <div>
@@ -989,33 +1031,40 @@ The simulation includes a range of scenarios that users can explore, each of whi
                                                         <h4 class="text-center pt-1">Java</h4>
                                                     </div>
                                                     <div>
-                                                        <img src="assets/img/icon/html-removebg-preview.png"
-                                                            width="100px">
+                                                        <picture>
+                                                            <source type="image/webp" srcset="assets/img/icon/html-removebg-preview.webp">
+                                                            <img src="assets/img/icon/html-removebg-preview.png" width="100px" alt="HTML 5">
+                                                        </picture>
                                                         <h4 class="text-center pt-1">HTML 5</h4>
                                                     </div>
                                                     <div>
-                                                        <img src="assets/img/icon/css-removebg-preview (1).png"
-                                                            width="100px">
+                                                        <picture>
+                                                            <source type="image/webp" srcset="assets/img/icon/css-removebg-preview (1).webp">
+                                                            <img src="assets/img/icon/css-removebg-preview (1).png" width="100px" alt="CSS 3">
+                                                        </picture>
                                                         <h4 class="text-center pt-1">CSS 3</h4>
                                                     </div>
-                                                </div>
+                                                </div>                                                
                                             </li>
                                             <li>
                                                 <div class="d-flex flex-wrap align-center justify-content-evenly mb-4">
                                                     <div>
-                                                        <img src="assets/img/icon/react-removebg-preview.png"
-                                                            width="100px">
+                                                        <picture>
+                                                            <source type="image/webp" srcset="assets/img/icon/react-removebg-preview.webp">
+                                                            <img src="assets/img/icon/react-removebg-preview.png" width="100px" alt="React.js">
+                                                        </picture>
                                                         <h4 class="text-center pt-1">React.js</h4>
                                                     </div>
                                                     <div>
-                                                        <img src="assets/img/icon/node-removebg-preview.png"
-                                                            width="100px">
+                                                        <picture>
+                                                            <source type="image/webp" srcset="assets/img/icon/node-removebg-preview.webp">
+                                                            <img src="assets/img/icon/node-removebg-preview.png" width="100px" alt="Node.js">
+                                                        </picture>
                                                         <h4 class="text-center pt-1">Node.js</h4>
                                                     </div>
                                                     <div>
-                                                        <img src="assets/img/express_icon.png"
-                                                            srcset="assets/img/express_icon-200w.png 200w"
-                                                            sizes="(max-width: 300px) 200px, 100px" alt="Express Logo" />
+                                                        <img src="https://moldoweb.com/wp-content/uploads/2022/03/6202fcdee5ee8636a145a41b_1234.png"
+                                                            width="100px">
                                                         <h4 class="text-center pt-1">Express</h4>
                                                     </div>
                                                     <div>
@@ -1024,8 +1073,7 @@ The simulation includes a range of scenarios that users can explore, each of whi
                                                         <h4 class="text-center pt-1">Flask</h4>
                                                     </div>
                                                     <div>
-                                                        <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
-                                                            width="100px">
+                                                        <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" width="100px">
                                                         <h4 class="text-center pt-1">Spring</h4>
                                                     </div>
                                                 </div>
@@ -1033,13 +1081,17 @@ The simulation includes a range of scenarios that users can explore, each of whi
                                             <li>
                                                 <div class="d-flex flex-wrap align-center justify-content-evenly">
                                                     <div>
-                                                        <img src="assets/img/icon/bootstrap-removebg-preview (2).png"
-                                                            width="100px">
+                                                        <picture>
+                                                            <source type="image/webp" srcset="assets/img/icon/bootstrap-removebg-preview (2).webp">
+                                                            <img src="assets/img/icon/bootstrap-removebg-preview (2).png" width="100px" alt="Bootstrap">
+                                                        </picture>
                                                         <h4 class="text-center pt-1">Bootstrap</h4>
                                                     </div>
                                                     <div>
-                                                        <img src="assets/img/icon/mysql-removebg-preview.png"
-                                                            width="100px" height="100px">
+                                                        <picture>
+                                                            <source type="image/webp" srcset="assets/img/icon/mysql-removebg-preview.webp">
+                                                            <img src="assets/img/icon/mysql-removebg-preview.png" width="100px" height="100px" alt="MySQL">
+                                                        </picture>
                                                         <h4 class="text-center pt-1">MySQL</h4>
                                                     </div>
                                                     <div>
@@ -1048,20 +1100,18 @@ The simulation includes a range of scenarios that users can explore, each of whi
                                                         <h4 class="text-center pt-1">MongoDB</h4>
                                                     </div>
                                                     <div>
-                                                        <img src="assets/img/icon/git-removebg-preview.png"
-                                                            width="100px">
+                                                        <picture>
+                                                            <source type="image/webp" srcset="assets/img/icon/git-removebg-preview.webp">
+                                                            <img src="assets/img/icon/git-removebg-preview.png" width="100px" alt="Git">
+                                                        </picture>
                                                         <h4 class="text-center pt-1">Git</h4>
                                                     </div>
                                                     <div>
-                                                        <img src="https://cdn.icon-icons.com/icons2/2407/PNG/512/aws_icon_146237.png"
-                                                            width="100px">
+                                                        <img src="https://cdn.icon-icons.com/icons2/2407/PNG/512/aws_icon_146237.png" width="100px">
                                                         <h4 class="text-center pt-1">AWS</h4>
                                                     </div>
-                                                    <!-- <div>
-                                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="100px" />
-                                                        <h4 class="text-center pt-1">Angular</h4>
-                                                    </div> -->
                                                 </div>
+                                                
                                             </li>
                                         </ul>
                                     </div>
