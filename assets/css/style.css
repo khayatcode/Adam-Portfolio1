@@ -138,6 +138,9 @@ html {
 
 body {
 	background-image: url(../img/fabriko1.png);
+	background-attachment: fixed !important;
+	background-position: center center !important;
+	background-size: cover !important;
 }
 
 html {
@@ -487,11 +490,11 @@ p {
 	background-size: cover !important;
 }
 
-.bg-fixed {
+/* .bg-fixed {
 	background-attachment: fixed !important;
 	background-position: center center !important;
 	background-size: cover !important;
-}
+} */
 
 .bg-fit {
 	background-size: 100% 100% !important;
