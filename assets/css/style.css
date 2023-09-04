@@ -142,6 +142,11 @@ body {
 	background-position: center center !important;
 	background-size: cover !important;
 }
+@media (max-width: 768px) {
+	body {
+		background-image: url(../img/shape/phone-banner-2.jpg);
+	}
+}
 
 html {
 	margin: 0;
