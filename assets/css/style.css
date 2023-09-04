@@ -131,11 +131,10 @@ Table of contents
    padding: 10px;
 }
 
-body,
+/* body,
 html {
 	height: 100%;
-	/* background-image: url(../img/shape/banner-2.jpg); */
-}
+} */
 
 html {
 	margin: 0;
@@ -486,8 +485,8 @@ p {
 
 .bg-fixed {
 	background-attachment: fixed;
-	background-position: center center;
-	background-size: cover;
+	/* background-position: center center; */
+	background-size: cover !important;
 }
 
 .bg-fit {
