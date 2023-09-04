@@ -131,10 +131,14 @@ Table of contents
    padding: 10px;
 }
 
-/* body,
+body,
 html {
 	height: 100%;
-} */
+}
+
+body {
+	background-image: url(../img/fabriko1.png);
+}
 
 html {
 	margin: 0;
@@ -484,8 +488,8 @@ p {
 }
 
 .bg-fixed {
-	background-attachment: fixed;
-	/* background-position: center center; */
+	background-attachment: fixed !important;
+	background-position: center center !important;
 	background-size: cover !important;
 }
 
