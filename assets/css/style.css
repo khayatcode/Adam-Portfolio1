@@ -441,6 +441,16 @@ p {
 	}
 }
 
+.fontProject {
+	font-size: smaller;
+}
+
+@media (max-width: 767px) {
+	.fontProject {
+		font-size: xx-small;
+	}
+}
+
 /*
 @media (max-width: 767px){
 	.videoClass {
